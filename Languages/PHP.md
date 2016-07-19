@@ -1,5 +1,14 @@
 # PHP Utilities 
 
+## Composer :
+
+#### Alias Linux
+
+```bash
+$ curl -sS https://getcomposer.org/installer | php
+$ sudo mv composer.phar /usr/local/bin/composer
+```
+
 ## Server :
 
 #### Switch PHP Version 

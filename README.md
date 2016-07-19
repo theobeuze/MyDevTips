@@ -2,10 +2,10 @@
 
 ## Languages : 
 
-+ [PHP](/Languages/php.md)
++ [PHP](/Languages/PHP.md)
 
 ## OS :
 
-+ [Linux](/linux/linux.md)
++ [Linux](/Linux/linux.md)
 
 ##### Last Update : 19/07
