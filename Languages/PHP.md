@@ -2,13 +2,60 @@
 
 ## Composer :
 
+#### Download Composer :
+
+```bash
+$ curl https://getcomposer.org/composer.phar
+```
+
 #### Alias Linux
 
 ```bash
 $ curl -sS https://getcomposer.org/installer | php
 $ sudo mv composer.phar /usr/local/bin/composer
 ```
+## Frameworks :
 
+#### Symfony :
+
++ Start server 
+
+    + SF 3 or + :
+    ```bash
+    $ php bin/console server:run +options
+    ```
+    +  SF 2 :
+    ```bash
+    $ php app/console server:run +options
+    ```
+
++ Update database : 
+
+    + SF 3 or + :
+    ```bash
+    $ php bin/console doctrine:schema:update --force
+    ```
+    +  SF 2 :
+    ```bash
+    $ php app/console doctrine:schema:update --force
+    ```
+    
+#### ZendFramework :
+
++ Start server :
+
+```bash
+$ cd path/to/install
+$ php -S 0.0.0.0:8888 -ddisplay_errors=0 -t public public/index.php
+```
+
++ Development mode :
+
+```bash
+$ cd path/to/install
+$ php public/index.php development enable 
+```
+    
 ## Server :
 
 #### Switch PHP Version 
